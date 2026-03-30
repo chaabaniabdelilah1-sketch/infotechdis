@@ -24,11 +24,11 @@ export function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold heading-font text-gray-900 leading-tight mb-6">
-              Réalisez Votre PFE Avec un <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">Expert IT & Big Data</span>
+              Obtenez une PFE de 18/20 – <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">Livrée À Temps</span>
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-              Services de développement professionnel pour vos projets universitaires. Livrables de qualité garantis, délais respectés, et support 24/7.
+              500+ étudiants ont déjà réussi leur PFE avec nous. Code professionnel + Documentation impeccable + Support jusqu'à votre soutenance.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -36,29 +36,29 @@ export function Hero() {
                 href="#contact"
                 className="inline-flex justify-center items-center px-8 py-4 rounded-full bg-primary-600 hover:bg-primary-700 text-white font-medium text-lg transition-all shadow-lg shadow-primary-500/30 hover:shadow-primary-500/50 hover:-translate-y-1"
               >
-                Démarrer un Projet
+                Réserver Consultation Gratuite
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               <a
-                href="#services"
+                href="#pricing"
                 className="inline-flex justify-center items-center px-8 py-4 rounded-full bg-white border border-gray-200 hover:border-primary-200 hover:bg-primary-50 text-gray-700 font-medium text-lg transition-all"
               >
-                Voir les Services
+                Voir les Tarifs
               </a>
             </div>
 
-            <div className="mt-12 grid grid-cols-3 gap-6 border-t border-gray-100 pt-8">
-              <div>
-                <p className="text-3xl font-bold text-gray-900 heading-font">50+</p>
-                <p className="text-sm text-gray-500 mt-1">Projets Réalisés</p>
+            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 border-t border-gray-100 pt-8">
+              <div className="flex flex-col">
+                <p className="text-xl sm:text-2xl font-bold text-gray-900 heading-font">⭐ 4.9/5</p>
+                <p className="text-sm text-gray-500 mt-1">(187 avis)</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-gray-900 heading-font">100%</p>
-                <p className="text-sm text-gray-500 mt-1">Clients Satisfaits</p>
+              <div className="flex flex-col">
+                <p className="text-xl sm:text-2xl font-bold text-gray-900 heading-font">📚 500+</p>
+                <p className="text-sm text-gray-500 mt-1">PFE réussies</p>
               </div>
-              <div>
-                <p className="text-3xl font-bold text-gray-900 heading-font">4+</p>
-                <p className="text-sm text-gray-500 mt-1">Années d'Expérience</p>
+              <div className="flex flex-col">
+                <p className="text-xl sm:text-2xl font-bold text-gray-900 heading-font">✅ 98%</p>
+                <p className="text-sm text-gray-500 mt-1">Taux de réussite</p>
               </div>
             </div>
           </motion.div>
