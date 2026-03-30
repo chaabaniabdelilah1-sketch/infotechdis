@@ -24,7 +24,7 @@ export function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold heading-font text-gray-900 leading-tight mb-6">
-              Obtenez une PFE de 18/20 – <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">Livrée À Temps</span>
+              Obtenez un PFE de 18/20 – <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-secondary-600">Livré À Temps</span>
             </h1>
             
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
@@ -54,7 +54,7 @@ export function Hero() {
               </div>
               <div className="flex flex-col">
                 <p className="text-xl sm:text-2xl font-bold text-gray-900 heading-font">📚 500+</p>
-                <p className="text-sm text-gray-500 mt-1">PFE réussies</p>
+                <p className="text-sm text-gray-500 mt-1">PFE réussis</p>
               </div>
               <div className="flex flex-col">
                 <p className="text-xl sm:text-2xl font-bold text-gray-900 heading-font">✅ 98%</p>
